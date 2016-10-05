@@ -2,9 +2,10 @@
 package com.dnotifica.notification.manager;
 
 import java.net.URL;
-import com.dnotifica.notification.notificationwindow.NotificationWindow;
+
 import com.dnotifica.notification.animation.SliderAnimation;
 import com.dnotifica.notification.utils.TimerUtils;
+import com.dnotifica.notification.window.NotificationWindow;
 import com.dnotifica.notification.utils.IconUtills;
 
 /**

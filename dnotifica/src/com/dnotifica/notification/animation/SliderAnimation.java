@@ -3,8 +3,8 @@ package com.dnotifica.notification.animation;
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
 
-import com.dnotifica.notification.notificationwindow.NotificationWindow;
 import com.dnotifica.notification.utils.TimerUtils;
+import com.dnotifica.notification.window.NotificationWindow;
 /**
  * <h1>dnotifica - SliderAnimation</h1>
  * <p>SliderAnimation class provides slider style animation </p> 
@@ -23,9 +23,7 @@ public class SliderAnimation implements Runnable {
 	}
 	
 	public void run() {
-		try
-	    {
-		System.out.println("RUN");
+		try{
 	      boolean animateFromBottom = false;
 	      GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
 	      Rectangle screenRect = ge.getMaximumWindowBounds();
@@ -35,9 +33,7 @@ public class SliderAnimation implements Runnable {
 	      }
 	     
 	      int posx = screenRect.width - this.notificationWindow.getBoxWidth() - 1;
-	      //1200-30-1=1169 
-	      this.notificationWindow.setLocation(posx, screenHeight); //1169,800
-	      System.out.println(screenHeight);
+	      this.notificationWindow.setLocation(posx, screenHeight);
 	      this.notificationWindow.setVisible(true);
 	      
 	      this.notificationWindow.setAlwaysOnTop(true);
