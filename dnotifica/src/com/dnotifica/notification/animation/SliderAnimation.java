@@ -3,7 +3,7 @@ package com.dnotifica.notification.animation;
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
 
-import com.dnotifica.notification.NotificationWindow;
+import com.dnotifica.notification.notificationwindow.NotificationWindow;
 import com.dnotifica.notification.utils.TimerUtils;
 /**
  * <h1>dnotifica - SliderAnimation</h1>
