@@ -1,12 +1,12 @@
 
-package com.dnotifica.notification.manager;
+package com.dproject.dnotifica.notification.manager;
 
 import java.net.URL;
 
-import com.dnotifica.notification.animation.SliderAnimation;
-import com.dnotifica.notification.utils.TimerUtils;
-import com.dnotifica.notification.window.NotificationWindow;
-import com.dnotifica.notification.utils.IconUtills;
+import com.dproject.dnotifica.notification.animation.SliderAnimation;
+import com.dproject.dnotifica.notification.utils.IconUtills;
+import com.dproject.dnotifica.notification.utils.TimerUtils;
+import com.dproject.dnotifica.notification.window.NotificationWindow;
 
 /**
  * <h1>dnotifica - Desktop Notification</h1>

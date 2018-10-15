@@ -1,4 +1,4 @@
-package com.dnotifica.notification.window;
+package com.dproject.dnotifica.notification.window;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

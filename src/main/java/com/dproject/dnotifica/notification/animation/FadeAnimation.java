@@ -1,4 +1,4 @@
-package com.dnotifica.notification.animation;
+package com.dproject.dnotifica.notification.animation;
 
 public class FadeAnimation implements Runnable {
 

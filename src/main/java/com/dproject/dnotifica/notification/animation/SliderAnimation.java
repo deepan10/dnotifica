@@ -1,10 +1,10 @@
-package com.dnotifica.notification.animation;
+package com.dproject.dnotifica.notification.animation;
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
 
-import com.dnotifica.notification.utils.TimerUtils;
-import com.dnotifica.notification.window.NotificationWindow;
+import com.dproject.dnotifica.notification.utils.TimerUtils;
+import com.dproject.dnotifica.notification.window.NotificationWindow;
 /**
  * <h1>dnotifica - SliderAnimation</h1>
  * <p>SliderAnimation class provides slider style animation </p> 

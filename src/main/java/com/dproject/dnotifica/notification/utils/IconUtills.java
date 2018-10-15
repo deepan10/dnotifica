@@ -1,4 +1,4 @@
-package com.dnotifica.notification.utils;
+package com.dproject.dnotifica.notification.utils;
 
 import java.awt.Image;
 import java.net.URL;

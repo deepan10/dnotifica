@@ -1,4 +1,4 @@
-package com.dnotifica.notification.utils;
+package com.dproject.dnotifica.notification.utils;
 /**
  * <h1>dnotifica - TimerUtils</h1>
  * <p>TimerUtils class provides timer utility methods, which is used to set notification show time and animation delay time</p>
