@@ -5,7 +5,7 @@ cache:
       - $HOME/.m2/
 
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+  - mvn clean install
 
 notifications:
   slack: deepan10:g0F1yGouO4Sj4034QN125LD0
